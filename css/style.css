@@ -1,0 +1,276 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&family=Raleway&display=swap");
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #f2ede9;
+  overflow-x: hidden;
+}
+
+footer {
+  background-color: #f1c4b3;
+  width: 100%;
+  height: 73px;
+  display: flex;
+  justify-content: space-between;
+  padding: 31px 0px 10px 0px;
+  align-items: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+h2 {
+  font-size: 25px;
+  font-family: "Raleway", sans-serif;
+  color: #005000;
+  text-align: center;
+}
+
+#date {
+  text-align: center;
+  margin: 18px 0px 40px 0px;
+  font-family: "Raleway", sans-serif;
+  color: #005000;
+}
+
+nav {
+  background-color: #f1c4b3;
+  height: 61px;
+  display: flex;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 24px 0px 24px;
+}
+
+nav,
+footer,
+header {
+  font-size: 28px;
+  color: #005000;
+  font-family: "Raleway", sans-serif;
+}
+
+nav a {
+  text-decoration: none;
+  color: #005000;
+  transition: 0.75s;
+  display: flex;
+  gap: 90px;
+  padding: 20px;
+}
+
+nav a:hover {
+  color: white;
+}
+
+#biglogo {
+  width: 531px;
+  height: 156px;
+}
+
+nav {
+  margin: 0px, 25px, 0px, 0px;
+}
+
+img {
+  margin: 4px, 25px, 4px, 25px;
+}
+
+.row {
+  display: flex;
+  padding: 0 4px;
+  justify-content: center;
+  align-items: stretch;
+  margin: 0px 0px 64px 0px;
+}
+
+.column {
+  padding: 0 4px;
+  justify-content: center;
+  height: 100%;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  justify-content: center;
+}
+
+.pics {
+  width: 483px;
+  height: 302px;
+  display: flex;
+  justify-content: center;
+}
+
+#socialicons {
+  padding: 0px 8px 0px 0px;
+}
+
+#footerlogo {
+  padding: 0px 0px 0px 8px;
+  max-height: 100%;
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 24px;
+  width: 1128px;
+  margin: 40px auto 40px auto;
+  align-items: center;
+}
+
+.alternate-background-color {
+  background-color: #a7d489;
+}
+
+#tagline h1 {
+  grid-column: 1 / span 12;
+  text-align: center;
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+
+h1 {
+  color: #005000;
+  font-size: 38px;
+}
+
+#question h1 {
+  grid-column: 2 / span 10;
+  text-align: center;
+  color: #005000;
+  margin-bottom: 0px;
+  margin-top: 80px;
+}
+
+#question {
+  font-family: "Raleway", sans-serif;
+}
+
+#mission h3 {
+  grid-column: 1 / span 12;
+  text-align: center;
+  color: #005000;
+  font-family: "PT Serif", serif;
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.support {
+  display: flex;
+  justify-content: center;
+}
+
+.timestamp {
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+  margin: 98px 0px 0px 0px;
+  color: #005000;
+  background-color: #fec143;
+  border-radius: 10%;
+}
+
+.activity {
+  font-family: "PT Serif", serif;
+  font-size: 23px;
+  color: #005000;
+}
+
+#girlstalk {
+  grid-column: 2 / span 5;
+}
+
+#couple {
+  grid-column: 7 / span 5;
+}
+
+#squat {
+  grid-column: 2 / span 5;
+}
+
+#coupleselfie {
+  grid-column: 7 / span 5;
+}
+
+#merch {
+  width: 2000px;
+  height: 3000px;
+}
+
+#sometext {
+  color: white;
+  background-color: #a7d489;
+  margin-top: 5px;
+}
+
+#sometext:hover {
+  color: #005000;
+}
+
+#protein {
+  width: 700px;
+  height: 500px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.guests {
+  border-radius: 15%;
+  transform: 0.2s;
+  transition: smooth;
+  width: 70%;
+  height: 70%;
+  border: 15px solid #a7d489;
+}
+
+.guests:hover {
+  transform: scale(0.9);
+  transition: smooth;
+}
+
+#chris,
+#erin {
+  grid-column: 1 / span 6;
+  text-align: center;
+}
+
+#day1,
+#day3 {
+  grid-column: 7 / span 6;
+  text-align: center;
+}
+
+#day2 {
+  grid-column: 1 / span 6;
+  text-align: center;
+}
+
+#brooke {
+  grid-column: 7 / span 6;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 25px;
+  color: #005000;
+}
+
+p {
+  font-family: "PT Serif", serif;
+  font-size: 17px;
+  color: #005000;
+}
